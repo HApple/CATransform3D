@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E236FAB3661AA63DEAC846DB2E7ED8 /* UIView+JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D18B4DF750B48FD67AA803F9ED7629 /* JHChainableAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */; };
+		5680EA35619DAEB49C16F818180183F7 /* JHKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */; };
+		5D6DC6D5B468CEBECCD3D16B970FD2B4 /* UIView+JHChainableAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */; };
+		7FCA10F62ED37C5F288AB90A2BFB7957 /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B73194CAE17AF3835E690D7FA02D35D /* JHChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF75A78896BED9C412FACC4F4EF1DCC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DC613E61253547229724CAE9A924F40D /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */; };
+		DC6CBDEDCDCBDAF59F0AFA4BA9480C0B /* JHKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9567527C916C8CBCC4AD6BAB0DEA29 /* Pods-CATransform3D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41496FA9728F921D6E06FBDED9544D14 /* Pods-CATransform3D-dummy.m */; };
+		E7828069BC78E0DE49CAE53EF8270E66 /* JHChainableBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD8825492A71C761B2DBE8A07E8E438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6453D508887FECCDE62EACEF8AD9A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27C9AB311EE00D38DCF3118AFEBA695;
+			remoteInfo = JHChainableAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableAnimations.h; path = JHChainableAnimations/JHChainableAnimations.h; sourceTree = "<group>"; };
+		12F330BE0072D48B3D0CBA5C56E738CE /* Pods-CATransform3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CATransform3D.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JHChainableAnimations.h"; path = "JHChainableAnimations/UIView+JHChainableAnimations.h"; sourceTree = "<group>"; };
+		312168F69751EBD1C74B828337BA71B8 /* libPods-CATransform3D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CATransform3D.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSBKeyframeAnimationFunctions.h; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		36D07B7826F28DCEAAB75DCEB0F36BF7 /* libJHChainableAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJHChainableAnimations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41496FA9728F921D6E06FBDED9544D14 /* Pods-CATransform3D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CATransform3D-dummy.m"; sourceTree = "<group>"; };
+		42C4E40352CF70D71A39EA0FD99D9A8C /* JHChainableAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHChainableAnimations-prefix.pch"; sourceTree = "<group>"; };
+		5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableBlocks.h; path = JHChainableAnimations/JHChainableBlocks.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF2C0BBBEB43FEB48AF36E7B87209BD /* Pods-CATransform3D-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CATransform3D-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKeyframeAnimation.h; path = JHChainableAnimations/JHKeyframeAnimation.h; sourceTree = "<group>"; };
+		A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JHChainableAnimations.m"; path = "JHChainableAnimations/UIView+JHChainableAnimations.m"; sourceTree = "<group>"; };
+		B3EF82C9CA41526B4D736AF469F7589D /* Pods-CATransform3D-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CATransform3D-frameworks.sh"; sourceTree = "<group>"; };
+		B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = NSBKeyframeAnimationFunctions.c; path = JHChainableAnimations/NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		B94F60E63DF1FCB9C34D959AA527B126 /* Pods-CATransform3D-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CATransform3D-acknowledgements.plist"; sourceTree = "<group>"; };
+		C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHChainableAnimations-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DEC7DDE2E8BB1E9FA3F8527C1DFCE94F /* Pods-CATransform3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CATransform3D.release.xcconfig"; sourceTree = "<group>"; };
+		EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHChainableAnimations.xcconfig; sourceTree = "<group>"; };
+		F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHKeyframeAnimation.m; path = JHChainableAnimations/JHKeyframeAnimation.m; sourceTree = "<group>"; };
+		F825B161919C29CBFE152942D9EF5FC3 /* Pods-CATransform3D-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CATransform3D-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F6F422F3CBA8500D5DE8434618D3E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF75A78896BED9C412FACC4F4EF1DCC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5691CD40E7E0DEBA63179AECE79114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD8825492A71C761B2DBE8A07E8E438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DB0F2B229F2D332E45AD61E7BBC0FD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */,
+				C86C4877DD7A4639DCFA0E9631D32E5C /* JHChainableAnimations-dummy.m */,
+				42C4E40352CF70D71A39EA0FD99D9A8C /* JHChainableAnimations-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JHChainableAnimations";
+			sourceTree = "<group>";
+		};
+		6AF56E75F2C4F3FDB5411946064945E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FDC5CBDC8EED3D0BD75EA04993FF5C /* Pods-CATransform3D */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D178C52DF9A9553439E2C1804D08700A /* Pods */,
+				E1A3D60DAD15CC003792424A7488D32A /* Products */,
+				6AF56E75F2C4F3FDB5411946064945E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FDC5CBDC8EED3D0BD75EA04993FF5C /* Pods-CATransform3D */ = {
+			isa = PBXGroup;
+			children = (
+				9EF2C0BBBEB43FEB48AF36E7B87209BD /* Pods-CATransform3D-acknowledgements.markdown */,
+				B94F60E63DF1FCB9C34D959AA527B126 /* Pods-CATransform3D-acknowledgements.plist */,
+				41496FA9728F921D6E06FBDED9544D14 /* Pods-CATransform3D-dummy.m */,
+				B3EF82C9CA41526B4D736AF469F7589D /* Pods-CATransform3D-frameworks.sh */,
+				F825B161919C29CBFE152942D9EF5FC3 /* Pods-CATransform3D-resources.sh */,
+				12F330BE0072D48B3D0CBA5C56E738CE /* Pods-CATransform3D.debug.xcconfig */,
+				DEC7DDE2E8BB1E9FA3F8527C1DFCE94F /* Pods-CATransform3D.release.xcconfig */,
+			);
+			name = "Pods-CATransform3D";
+			path = "Target Support Files/Pods-CATransform3D";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D178C52DF9A9553439E2C1804D08700A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9C22A82FA286CADEFD9D2232759A275 /* JHChainableAnimations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C22A82FA286CADEFD9D2232759A275 /* JHChainableAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				08CD31BD714B3EE32266868331CCC01A /* JHChainableAnimations.h */,
+				5CB0C2A121FCB738F15BED593FD21D7D /* JHChainableBlocks.h */,
+				A3D56E5D0563CE728AFFA83A882EBB1D /* JHKeyframeAnimation.h */,
+				F129D98787F17474F8B8990D49D9EF69 /* JHKeyframeAnimation.m */,
+				B510BC73A887D423467F50CC29DF683B /* NSBKeyframeAnimationFunctions.c */,
+				34CC3AB0FE3819051801CD130FD051D8 /* NSBKeyframeAnimationFunctions.h */,
+				2C1EBA936F051494FDBF0AFFC1FD1105 /* UIView+JHChainableAnimations.h */,
+				A42CEF68001FA5BED0D50388F4927C57 /* UIView+JHChainableAnimations.m */,
+				5DB0F2B229F2D332E45AD61E7BBC0FD1 /* Support Files */,
+			);
+			path = JHChainableAnimations;
+			sourceTree = "<group>";
+		};
+		E1A3D60DAD15CC003792424A7488D32A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D07B7826F28DCEAAB75DCEB0F36BF7 /* libJHChainableAnimations.a */,
+				312168F69751EBD1C74B828337BA71B8 /* libPods-CATransform3D.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0BF402CE206C7FF03D2F49C0C43EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73194CAE17AF3835E690D7FA02D35D /* JHChainableAnimations.h in Headers */,
+				E7828069BC78E0DE49CAE53EF8270E66 /* JHChainableBlocks.h in Headers */,
+				DC6CBDEDCDCBDAF59F0AFA4BA9480C0B /* JHKeyframeAnimation.h in Headers */,
+				7FCA10F62ED37C5F288AB90A2BFB7957 /* NSBKeyframeAnimationFunctions.h in Headers */,
+				08E236FAB3661AA63DEAC846DB2E7ED8 /* UIView+JHChainableAnimations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E6804E74F481DEAF2679784960A10210 /* Pods-CATransform3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F599C699B7E82CDFE8208EDA05C30F /* Build configuration list for PBXNativeTarget "Pods-CATransform3D" */;
+			buildPhases = (
+				96934E9D8C6310F949F55EF8E0ED3B88 /* Sources */,
+				7F6F422F3CBA8500D5DE8434618D3E04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606ADA58AFE51E7437059B3D814AA2F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CATransform3D";
+			productName = "Pods-CATransform3D";
+			productReference = 312168F69751EBD1C74B828337BA71B8 /* libPods-CATransform3D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF8722EEFF2D3800415714656F9B1C5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */;
+			buildPhases = (
+				DC1148C175E4898546ED513F9A3CAA49 /* Sources */,
+				9E5691CD40E7E0DEBA63179AECE79114 /* Frameworks */,
+				0B0BF402CE206C7FF03D2F49C0C43EE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHChainableAnimations;
+			productName = JHChainableAnimations;
+			productReference = 36D07B7826F28DCEAAB75DCEB0F36BF7 /* libJHChainableAnimations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E1A3D60DAD15CC003792424A7488D32A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */,
+				E6804E74F481DEAF2679784960A10210 /* Pods-CATransform3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96934E9D8C6310F949F55EF8E0ED3B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9567527C916C8CBCC4AD6BAB0DEA29 /* Pods-CATransform3D-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1148C175E4898546ED513F9A3CAA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D18B4DF750B48FD67AA803F9ED7629 /* JHChainableAnimations-dummy.m in Sources */,
+				5680EA35619DAEB49C16F818180183F7 /* JHKeyframeAnimation.m in Sources */,
+				DC613E61253547229724CAE9A924F40D /* NSBKeyframeAnimationFunctions.c in Sources */,
+				5D6DC6D5B468CEBECCD3D16B970FD2B4 /* UIView+JHChainableAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606ADA58AFE51E7437059B3D814AA2F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChainableAnimations;
+			target = F27C9AB311EE00D38DCF3118AFEBA695 /* JHChainableAnimations */;
+			targetProxy = BC6453D508887FECCDE62EACEF8AD9A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		330D571EEE6562DB019BF5280E3906F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC7DDE2E8BB1E9FA3F8527C1DFCE94F /* Pods-CATransform3D.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DAA79E70873C95427D135D73A343779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81A43332700873BFCB3C30F9C050DC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F330BE0072D48B3D0CBA5C56E738CE /* Pods-CATransform3D.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD9D89816994666A40F909399716AC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4072908E5842DBC7B94E5E4DFE7CAD /* JHChainableAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHChainableAnimations/JHChainableAnimations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F599C699B7E82CDFE8208EDA05C30F /* Build configuration list for PBXNativeTarget "Pods-CATransform3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A43332700873BFCB3C30F9C050DC8E /* Debug */,
+				330D571EEE6562DB019BF5280E3906F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF8722EEFF2D3800415714656F9B1C5 /* Build configuration list for PBXNativeTarget "JHChainableAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9D89816994666A40F909399716AC30 /* Debug */,
+				5DAA79E70873C95427D135D73A343779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

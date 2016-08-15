@@ -1,7 +1,7 @@
 # CATransform3D
 
 
-我写的[CATransform3D笔记](http://www.jianshu.com/p/78c30ccf425f])的练习Demo
+我写的[CATransform3D笔记](http://www.jianshu.com/p/78c30ccf425f)的练习Demo
 
 这个Demo模仿荷包App的启动动画
 里面用了三种方法实现 1.改变frame 2.改变transform3.用动画库[JHChainableAnimations](https://github.com/jhurray/JHChainableAnimations)
